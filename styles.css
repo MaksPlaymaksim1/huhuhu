@@ -1,0 +1,58 @@
+*
+{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+@font-face
+{font-family: Roboto;
+src: url(Roboto-Regular.ttf);}
+
+body
+{background-color: #F5F5F5;
+font-family: Roboto;}
+
+main
+{width: 70%;
+padding: 50px;
+margin: auto;
+background-color: #FFFFFF;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+box-shadow: 0 0 10px 1px rgba(0,0,0,0.6);}
+
+h1
+{width: 100%;
+text-align: center;
+font-size: 48px;}
+
+.photo
+{width: calc(50% - 40px);
+height: calc((35vw - 40px) / 16 * 9);
+margin: 20px;
+background-color: #FFA500;
+background-position: center;
+background-size: cover;
+transition: all 0.5s ease;}
+
+.photo:hover
+{transform: rotate(3deg) scale(1.07)}
+
+.photo1
+{background-image: url(img1.jpeg);}
+
+.photo2
+{background-image: url(img2.jpeg);}
+
+.photo3
+{background-image: url(img3.jpeg);}
+
+.photo4
+{background-image: url(img4.jpeg);}
+
+.photo5
+{background-image: url(img5.jpeg);}
+
+.photo6
+{background-image: url(img6.jpeg);}
+
